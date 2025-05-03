@@ -334,7 +334,7 @@ int ModemComponent::get_modem_voltage() {
   return 0;
 }
 
-float ModemComponent::get_setup_priority() const { return setup_priority::MODEM; }
+float ModemComponent::get_setup_priority() const { return setup_priority::WIFI+1; }
 
 bool ModemComponent::can_proceed() { return this->is_connected(); }
 
