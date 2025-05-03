@@ -31,10 +31,7 @@ CONF_PWRKEY_PIN = "pwrkey_pin"
 
 ModemType = modem_ns.enum("ModemType")
 MODEM_TYPES = {
-    "BG96": ModemType.MODEM_TYPE_BG96,
-    "SIM800": ModemType.MODEM_TYPE_SIM800,
-    "SIM7000": ModemType.MODEM_TYPE_SIM7000,
-    "SIM7070": ModemType.MODEM_TYPE_SIM7070,
+    "SIM7600": ModemType.MODEM_TYPE_SIM7600,
 }
 
 ModemComponent = modem_ns.class_("ModemComponent", cg.Component)

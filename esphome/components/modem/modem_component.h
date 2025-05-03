@@ -19,10 +19,7 @@ namespace modem {
 
 enum ModemType {
   MODEM_TYPE_UNKNOWN = 0,
-  MODEM_TYPE_BG96,
-  MODEM_TYPE_SIM800,
-  MODEM_TYPE_SIM7000,
-  MODEM_TYPE_SIM7070,
+  MODEM_TYPE_SIM7600,
 };
 
 enum class ModemComponentState {

@@ -202,7 +202,7 @@ void ModemComponent::dte_init_() {
 
 void ModemComponent::dce_init_() {
   esp_modem_dce_config_t dce_config = ESP_MODEM_DCE_DEFAULT_CONFIG(this->apn_.c_str());
-  this->dce_ = esp_modem::create_SIM800_dce(&dce_config, dte_, this->modem_netif_);
+  this->dce_ = esp_modem::create_SIM7600_dce(&dce_config, dte_, this->modem_netif_);
 }
 
 bool ModemComponent::check_modem_component_state_timings_() {
